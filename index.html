@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="page-transition-cover" id="pageTransitionCover"></div>
+    
+    <main class="page homepage">
+        <header class="homepage-header" id="homepageHeader">
+            <button class="menu-button" id="menuButton">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="menu-panel hidden" id="menuPanel">
+                <a href="faq.html">Frequently Asked Questions</a>
+                <a href="information.html">Information</a>
+                <a href="about.html">About</a>
+            </nav>
+        </header>
+
+        <section class="homepage-main" id="homepageMain">
+            <h1 class="home-title">How do you feel right now?</h1>
+            <a href="emotion_checkin.html" class="start-button">Start</a>
+
+            <button class="maybe-later-button" id="maybeLaterButton">
+                Maybe Later
+            </button>
+        </section>
+
+        <section class="gentle-message hidden" id="gentleMessage">
+            <p>No worries.</p>
+            <p>Remember to take care of yourself today.</p>
+        
+        </section>
+
+        <nav class="checkin-nav maybe-later-nav hidden" id="maybeLaterNav">
+            <button class="icon-button back-button" id="maybeLaterBackButton" type="button">
+                <img src="images/Arrow 1.png" alt="back arrow">
+            </button>
+        </nav>
+
+        <nav class="homepage-bottom" id="homepageBottom">
+            <a href="memory.html" class="memory-link">Memory</a>
+        </nav>
+    </main>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>

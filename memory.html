@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="page-transition-cover" id="pageTransitionCover"></div>
+
+    <main class="page memory-page">
+        <section class="memory-content" id="memoryContent">
+            <header class="memory-header">
+                <h1 class="memory-title">
+                    Memory
+                </h1>
+
+                <p class="memory-subtitle">
+                    Tap one emotion ball to revisit a moment.
+                </p>
+            </header>
+
+            <section class="memory-grid" id="memoryGrid">
+            </section>
+
+            <article class="memory-card hidden" id="memoryCard">
+                <p class="memory-card-text" id="memoryCardText">
+                    There was a feeling here.
+                </p>
+
+                <p class="memory-card-time" id="memoryCardTime">
+                    Today, 00:00
+                </p>
+
+                <button class="memory-card-delete-button" id="memoryCardDelete" type="button">
+                    <img src="images/trashBinIcon.png" alt="trash bin">
+                </button>
+
+                <div class="memory-remove-card hidden" id="memoryRemoveCard">
+                    <p class="memory-remove-text">
+                        Are you sure to remove this moment?
+                    </p>
+
+                    <div class="memory-remove-actions">
+                        <button class="memory-remove-cancel" id="memoryRemoveCancel" type="button">
+                            Not really
+                        </button>
+
+                        <button class="memory-remove-confirm" id="memoryRemoveConfirm" type="button">
+                            Confirm
+                        </button>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <nav class="checkin-nav">
+            <a class="icon-button back-button" href="index.html">
+                <img src="images/Arrow 1.png" alt="back arrow">
+            </a>
+
+            <a class="icon-button home-button" href="index.html">
+                <img src="images/homepage.png" alt="homepage icon">
+            </a>
+        </nav>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

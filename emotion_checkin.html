@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="page-transition-cover" id="pageTransitionCover"></div>
+    
+    <main class="page checkin-page">
+        <section class="checkin-screen palette-screen" id="paletteScreen">
+            <h1 class="screen-title"><strong>Drag</strong> to explore your feelings.</h1>
+
+            <div class="emotion-palette" id="emotionPalette">
+                <span class="emotion-label sadness-label">Sadness</span>
+                <span class="emotion-label joy-label">Joy</span>
+                <span class="emotion-label fear-label">Fear</span>
+                <span class="emotion-label anger-label">Anger</span>
+                <span class="emotion-label calm-label">Calm</span>
+                
+                <div class="selector palette-selector" id="paletteSelector"></div>
+
+                <div class="palette-result hidden" id="paletteResult">
+                    <h2 class="result-text" id="emotionResultText">
+                        There may be a feeling here.
+                    </h2>
+
+                    <div class="result-actions">
+                        <button class="back-action" id="rejectEmotion">
+                            ← Not really.
+                        </button>
+
+                        <button class="forward-action" id="confirmEmotion">
+                            Let's stay with this feeling →
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <p class="bottom-hint" id="paletteHint">
+                Tap anywhere when you're ready.
+            </p>
+        </section>
+
+        <section class="checkin-screen body-screen hidden" id="bodyScreen">
+            <h1 class="screen-title">
+                Where do you feel this in your body?
+            </h1>
+
+            <p class="screen-subtitle">
+                <strong>Drag</strong> to the place that feels right.
+            </p>
+
+            <div class="body-area" id="bodyArea">
+                <img class="body-outline" src="images/body_outline (2).png" alt="A simple outline of a human body">
+
+                <img class="body-heart" src="images/heart.png" alt="A heart shape">
+
+                <div class="selector body-marker hidden" id="bodyMarker"></div>
+            </div>
+
+            <div class="body-result hidden" id="bodyResult">
+                <h2 class="result-text" id="bodyResultText">
+                    You may be noticing this feeling in your body.
+                </h2>
+
+                <div class="result-actions">
+                    <button class="back-action" id="rejectBody">
+                        ← Not really.
+                    </button>
+
+                    <button class="forward-action" id="confirmBody">
+                        Let's stay with this feeling →
+                    </button>
+                </div>
+            </div>
+
+            <p class="bottom-hint" id="bodyHint">
+                Tap anywhere when you're ready.
+            </p>
+            
+        </section>
+
+        <section class="checkin-screen guidance-screen hidden" id="guidanceScreen">
+            <div class="guidance-background" id="guidanceBackground"></div>
+            
+            <h1 class="guidance-text" id="guidanceText">
+                Let's stay with this feeling for a moment.
+            </h1>
+
+            <p class="bottom-hint" id="guidanceHint">
+                Tap anywhere when you're ready. →
+            </p>
+
+
+            <div class="completion-options hidden" id="completionOptions">
+                <a href="memory.html" class="finish-link" id="finishCheckin">
+                    Finish check-in →
+                </a>
+            </div>
+        </section>
+
+        <nav class="checkin-nav">
+            <button class="icon-button back-button" id="backButton">
+                <img src="images/Arrow 1.png" alt="">
+            </button>
+
+            <a class="icon-button home-button" href="index.html">
+                <img src="images/homepage.png" alt="">
+            </a>
+        </nav>
+
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

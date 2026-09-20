@@ -44,6 +44,13 @@ No additional installation or dependencies are required.
 
 ## Preview
 
+The homepage introduces the experience, while the emotion palette allows users to explore and position their current feelings through an interactive visual interface.
+
+### Homepage
+![Emotion Check-in homepage](images/homepage_screenshot.png)
+
+### Emotion Palette
+![Emotion palette interaction](images/emotion_palette_screenshot.png)
 
 ## My Contributions
 

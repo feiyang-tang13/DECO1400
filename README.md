@@ -1,3 +1,5 @@
+[View Live Demo](https://feiyang-tang13.github.io/DECO1400/)
+
 # Emotion Check-in
 
 A web-based emotional reflection tool developed as an individual project for DECO1400 at The University of Queensland.

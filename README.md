@@ -1,5 +1,16 @@
 [View Live Demo](https://feiyang-tang13.github.io/DECO1400/)
 
+## Preview
+
+The homepage introduces the experience, while the emotion palette allows users to explore and position their current feelings through an interactive visual interface.
+
+### Homepage
+![Emotion Check-in homepage](images/homepage_screenshot.png)
+
+### Emotion Palette
+![Emotion palette interaction](images/emotion_palette_screenshot.png)
+
+
 # Emotion Check-in
 
 A web-based emotional reflection tool developed as an individual project for DECO1400 at The University of Queensland.
@@ -43,16 +54,6 @@ The application combines visual interaction, guided reflection, and previous che
 3. Open index.html in a web browser.
 
 No additional installation or dependencies are required.
-
-## Preview
-
-The homepage introduces the experience, while the emotion palette allows users to explore and position their current feelings through an interactive visual interface.
-
-### Homepage
-![Emotion Check-in homepage](images/homepage_screenshot.png)
-
-### Emotion Palette
-![Emotion palette interaction](images/emotion_palette_screenshot.png)
 
 ## My Contributions
 

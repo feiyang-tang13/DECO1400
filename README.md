@@ -1,4 +1,14 @@
-[View Live Demo](https://feiyang-tang13.github.io/DECO1400/)
+<h3>
+  <a href="https://feiyang-tang13.github.io/DECO1400/">
+    View Live Demo
+  </a>
+</h3>
+
+
+
+# Emotion Check-in
+
+A web-based emotional reflection tool developed as an individual project for DECO1400 at The University of Queensland.
 
 ## Preview
 
@@ -11,9 +21,6 @@ The homepage introduces the experience, while the emotion palette allows users t
 ![Emotion palette interaction](images/emotion_palette_screenshot.png)
 
 
-# Emotion Check-in
-
-A web-based emotional reflection tool developed as an individual project for DECO1400 at The University of Queensland.
 
 ## Overview
 
